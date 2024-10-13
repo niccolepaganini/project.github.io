@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hobbies</title>
+    <link rel="stylesheet" href="hobbies_css.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="family.html">Family</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="burger">
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <section class="hobbies">
+            <h1>My hobbies</h1>
+            <div class="family-grid">
+                <div class="family-member">
+                    <img src="avangard.png" alt="avangard">
+                    <div class="text">
+                        <h3>Volleyball</h3>
+                        <h4>I love to play sports. My favorite sport is volleyball. And since I am a member of the SDU volleyball club, my favorite club is Avangard. </h4>
+                    </div>
+                </div>
+                <div class="family-member">
+                    <img src="dombyra.png" alt="dombra">
+                    <div class="text">
+                        <h3>Dombyra</h3>
+                        <h4>I also like listening to music. But I especially like playing. And since I graduated from music school, I can play the dombra</h4>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; </p>
+    </footer>
+    <script>
+        document.querySelector('.burger').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('nav').classList.toggle('open');
+        })
+    </script>
+</body>
+</html>

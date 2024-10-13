@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <link rel="stylesheet" href="education_css.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="family.html">Family</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="burger">
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <section class="education">
+            <h1>My education</h1>
+            <div class="family-member">
+                <img src="12.jpeg" alt="12">
+                <div class="text">
+                    <h3>School</h3>
+                    <h4>The very first place where I started getting an education was the school next to my home. It was school №12 named after Kerimbay in the city of Taraz. I studied there until the 11th grade and was in the school's orchestra.</h4>
+                </div>
+            </div>
+            <div class="family-member">
+                <img src="125.jpeg" alt="125">
+                <div class="text">
+                    <h3>125 School</h3>
+                    <h4>To prepare for the UNT, I needed good preparation. And I started studying at school 125. There were good teachers and an environment. With this, I received a gran</h4>
+                </div>
+                
+            </div>
+            <div class="family-member">
+                <img src="sdu.jpg" alt="sdu">
+                <div class="text">
+                    <h3>SDU</h3>
+                    <h4>I am currently studying at SDU and I really like it. It is a good environment for development and self-knowledge.</h4>
+                </div>
+                
+            </div>
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; </p>
+    </footer>
+    <script>
+        document.querySelector('.burger').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('nav').classList.toggle('open');
+        })
+    </script>
+</body>
+</html>

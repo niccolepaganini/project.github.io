@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family</title>
+    <link rel="stylesheet" href="family_css.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="family.html">Family</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="burger">
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <section class="family">
+            <h1>My Family</h1>
+            <div class="family-grid">
+                <div class="family-member">
+                    <img src="mom and dad.jpeg" alt="Mom and Dad">
+                    <div class="text">
+                        <h3>Mom and Dad </h3>
+                        <h4>My family consists of 6 people. My parents are the closest people to me. They have always supported me in my endeavors. And for this I am very grateful to them.</h4>
+                    </div>
+                   
+                    
+                </div>
+                <div class="family-member">
+                    <img src="sisters.jpg" alt="Sisters">
+                    <div class="text">
+                        <h3>Sisters</h3>
+                        <h4>I have very smart sisters. Both graduated from NU, and both helped me with my studies and supported me in my personal life. Recently, my younger sister got married, and now they have their own family.</h4>
+                    </div>
+                    
+                </div>
+                <div class="family-member">
+                    <img src="brother.jpg" alt="Brother">
+                    <div class="text">
+                        <h3>Brother</h3>
+                        <h4>And I also have a smart younger brother. For now he is studying at school. After graduating from NIS he wants to go to Europe. I believe that he will succeed.</h4>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024</p>
+    </footer>
+    <script>
+        document.querySelector('.burger').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('nav').classList.toggle('open');
+        })
+    </script>
+</body>
+</html>
